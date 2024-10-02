@@ -54,9 +54,17 @@
 //     alert('Это слово не палиндром');
 // }
 
-// const arr = [1, 2, 3, 1, 5, 4, 2, 3, 5, 'they', 'don\'t', 'know', 'that', 'we', 'know', 'that', 'they', 'know' ]; 
-// const arr2 = [1, 2, 3, 5, 4, 'they', 'don\'t', 'know', 'that', 'we'];
-// console.log(arr2)
+// const arr = [1, 2, 3, 1, 5, 4, 2, 3, 5, 'they', 'don\'t', 'know', 'that', 'we', 'know', 'that', 'they', 'know' ];
+
+// const newArr = [];
+
+// for (let i = 0; i < arr.length; i++) {
+//   if (!newarr.includes(arr[i])) {
+//     newarr.push(arr[i]);
+//   }
+// }
+
+// console.log(newarr);
 
 // let num = prompt('Введите число');
 // let number = Number(num);
@@ -80,3 +88,21 @@
 // a = [fir, sec, thi, forth];
 
 // console.log(a)
+
+// const fieldSize = 3;
+// let field = []; 
+
+// for (let i = 0; i < fieldSize; i++) {
+//   field[i] = [];
+//   for (let j = 0; j < fieldSize; j++) {
+//     field[i][j] = ' ';
+//   }
+// }
+
+// for (let i = 0; i < fieldSize; i++) {
+//   let row = '';
+//   for (let j = 0; j < fieldSize; j++) {
+//     row += `| ${field[i][j]} |`;
+//   }
+//   console.log(row);
+// }
